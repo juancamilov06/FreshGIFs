@@ -1,9 +1,9 @@
-package com.juanvilla.freshgifs.core.usecase.trending
+package com.juanvilla.freshgifs.data.source.remote.trending
 
 import com.juanvilla.freshgifs.core.entity.GifWrapper
 import com.juanvilla.freshgifs.core.util.Result
 
-interface TrendingUseCase {
+interface TrendingRemoteDataSource {
     fun getTrendingGifs(
         offset: Int,
         rating: String,

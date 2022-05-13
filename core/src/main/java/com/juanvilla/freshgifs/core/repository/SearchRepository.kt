@@ -8,5 +8,5 @@ interface SearchRepository {
         offset: Int,
         rating: String,
         limit: Int = 25
-    ): GifWrapper
+    ): Result<GifWrapper>
 }

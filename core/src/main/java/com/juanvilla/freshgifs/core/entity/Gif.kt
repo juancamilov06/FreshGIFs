@@ -16,5 +16,5 @@ data class Gif(
     // Date when marked as trending
     val trendingDateTime: String,
     val title: String,
-    val user: User
+    val user: User?
 )

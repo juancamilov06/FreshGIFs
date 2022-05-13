@@ -1,9 +1,10 @@
-package com.juanvilla.freshgifs.core.usecase.search
+package com.juanvilla.freshgifs.data.source.remote.search
 
 import com.juanvilla.freshgifs.core.entity.GifWrapper
+import com.juanvilla.freshgifs.core.util.Result
 
-class SearchUseCaseImpl : SearchUseCase {
-    override fun searchGifByName(
+class SearchRemoteDataSourceImpl : SearchRemoteDataSource {
+    override fun getGifsByName(
         name: String,
         offset: Int,
         rating: String,
